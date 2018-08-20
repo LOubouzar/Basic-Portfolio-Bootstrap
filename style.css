@@ -1,0 +1,154 @@
+/* Navigation Styling */
+.navbar-brand {
+    padding: 0;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+
+  nav {
+    margin-top: 10px;
+    border-bottom: 2px solid #ccc;
+  }
+
+  /* General Styling */
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    background: url("./assets/skulls.png");
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 20px;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+  }
+  
+  h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+  }
+  
+  h2,
+  h3 {
+    font-size: 22px;
+  }
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+#main-container {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    
+}
+  
+.main-section {
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+/* Contact Page Styling */
+label {
+    font-size: 14px;
+}
+
+/* Portfolio Page Styling */
+
+.portfolio-wrap {
+    width: 300px;
+    height: 180px;
+    display: inline-block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 10px;
+}
+
+    .portfolio-wrap.hangman {
+        background-image: url('https://picsum.photos/200/300?image=1062');
+    }
+
+    .portfolio-wrap.rpg {
+        background-image: url('https://picsum.photos/200/300?image=1063');
+    }
+
+    .portfolio-wrap.trivia {
+        background-image: url('https://picsum.photos/200/300?image=1073');
+    }
+
+    .portfolio-wrap.rutgers {
+        background-image: url('https://picsum.photos/200/300?image=1078');
+    }
+
+    .portfolio-wrap.rock {
+        background-image: url('https://picsum.photos/200/300?image=1074');
+    }
+
+    .portfolio-wrap .portfolio-text {
+        display: block;
+        float: left;
+        width: 300px;
+        z-index: 100;
+        background-color: #33b3b3;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 20px;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+/* Footer Styling */
+.footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      line-height: 50px;
+      background: #666;
+      border-top: 8px solid #4aaaa5;
+      color: #fff;
+      color: #ccc;
+      font-size: 12px;
+
+}
+
+    .footer-container {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
