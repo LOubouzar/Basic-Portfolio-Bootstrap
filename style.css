@@ -7,16 +7,20 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: white;
+    color: white !important;
     text-align: center;
-    text-decoration: none;
+    /* text-decoration: none; */
     background: #4aaaa5;
   }
 
+  .navbar {
+      padding: 0;
+  }   
+
   nav {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     border-bottom: 2px solid #ccc;
-  }
+}
 
   /* General Styling */
 body {
@@ -33,11 +37,7 @@ body {
   p {
     margin-bottom: 20px;
   }
-/*   
-  p:last-child {
-    margin-bottom: 0;
-  }
-   */
+
   h1,
   h2,
   h3 {
@@ -66,7 +66,7 @@ body {
 
 #main-container {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 30px !important;
     
 }
   
@@ -78,7 +78,13 @@ body {
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #ddd;
+    float: left;
   }
+
+img {
+    float: left;
+}
+
 
 /* Contact Page Styling */
 label {
