@@ -104,23 +104,27 @@ label {
 }
 
     .portfolio-wrap.hangman {
-        background-image: url('https://picsum.photos/200/300?image=1062');
+        background-image: url('./assets/wordguess.PNG');
     }
 
-    .portfolio-wrap.rpg {
-        background-image: url('https://picsum.photos/200/300?image=1063');
+    .portfolio-wrap.crystal {
+        background-image: url('./assets/crystalguesser.PNG');
     }
 
     .portfolio-wrap.trivia {
-        background-image: url('https://picsum.photos/200/300?image=1073');
+        background-image: url('./assets/trivia.jpg');
     }
 
-    .portfolio-wrap.rutgers {
-        background-image: url('https://picsum.photos/200/300?image=1078');
+    .portfolio-wrap.cuisintry {
+        background-image: url('./assets/cuisintry.PNG');
     }
 
-    .portfolio-wrap.rock {
-        background-image: url('https://picsum.photos/200/300?image=1074');
+    .portfolio-wrap.colorPop {
+        background-image: url('./assets/colorPop.PNG');
+    }
+
+    .portfolio-wrap.reactionGif {
+        background-image: url('./assets/reactionGif.PNG');
     }
 
     .portfolio-wrap .portfolio-text {
